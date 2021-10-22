@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --textcolorblue: #0890CB;
+    --containercolor:#0D1821;
+    --buttoncolor: #3366FF;
+    --cardshadow: #BBB1B1;
+    --textlabel: #FBB13C;
+    --Montserrat: 'Montserrat', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+}
+.container-login{
+    font-family: var(--Roboto);
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+.texttitle{
+    margin-top: 40px;
+    font-size: 50px;
+    color: var(--textcolorblue);
+}
+.container{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+.containerform{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #FFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #BBB1B1;
+}
+.containerform div{
+    color: white;
+    background-color: var(--containercolor);
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 5px 5px 8px #BBB1B1;
+}
+.containerform div h4{
+    font-family: inherit;
+    font-size: 20px;
+    padding-top: 5px;
+}
+form{
+    width: 60%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+}
+form label{
+    margin-top: 15px;
+    color: black;
+}
+form input{
+    margin-top: 5px;
+    padding-left: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+form button{
+    margin-top: 30px;
+    height: 40px;
+    background-color: #AB2346;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 0px;
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    bottom: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    transform: scaleX(-1);
+}

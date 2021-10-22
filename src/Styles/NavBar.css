@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --textcolorblue: #0890CB;
+    --containercolor:#0D1821;
+    --buttoncolor: #3366FF;
+    --cardshadow: #BBB1B1;
+    --textlabel: #FBB13C;
+    --Montserrat: 'Montserrat', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 55px;
+    box-shadow: 5px 5px 8px #BBB1B1;
+    border-radius: 0 0 15px 15px;
+    background-color: var(--containercolor);
+    color: white;
+    font-family: var(--Roboto);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav p{
+    font-size: 25px;
+}
+ul{
+    
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 5px;
+    list-style: none;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+.active{
+    background-color: #AB2346;
+}
+a{
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+ul li:hover{
+    transform: scale(1.14);
+}
